@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdfbf7;
+    color: #4a3b32;
+}
+
+.topo {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #5c4033;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 3px solid #d4a373;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.topo h1 {
+    margin: 0;
+    font-size: 26px;
+    color: #faedcd;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: #fefae0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #d4a373;
+}
+
+.main {
+    width: 900px;
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #5c4033;
+    margin-bottom: 30px;
+}
+
+.apresentacao {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #e3d5ca;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.container-imagem {
+    position: relative;
+    width: 400px;
+}
+
+.container-imagem img {
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+}
+
+.selo-24h {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #bc6c25;
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.destaque-emergecia {
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    background-color: #dda15e;
+    color: #332211;
+    padding: 8px 12px;
+    font-weight: 13px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.info-apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-apresentacao h2 {
+    font-size: 24px;
+    text-align: left;
+    margin: 0;
+}
+
+.telefone {
+    font-size: 15px;
+    color: #bc6c25;
+}
+
+.grid-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e3d5ca;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #5c4033;
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.card p {
+    color: #7f5539;
+    font-size: 13px;
+}
+
+.planeje {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #e3d5ca;
+    margin-bottom: 40px;
+}
+
+.info-estadia {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.preco {
+    font-size: 16px;
+    font-weight: bold;
+    color: #bc6c25;
+}
+
+.secao-cuidados {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #e3d5ca;
+    margin-bottom: 40px;
+}
+
+.caixa-rolagem {
+    height: 150px;
+    overflow: auto;
+    padding: 15px;
+    background-color: #f9f6f0;
+    border: 1px solid #e3d5ca;
+    border-radius: 5px;
+}
+
+.caixa-rolagem h3 {
+    margin-top: 0;
+    color: #5c4033;
+}
+
+.caixa-rolagem p {
+    color: #6bafaf;
+    font-size: 14px;
+}
+
+button.btn-acao {
+    background-color: #bc6c25;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+}
+
+button.btn-acao:hover {
+    background-color: #9b581e;
+}
+
+.btn-fixo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #d4a373;
+    color: #332211;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.btn-fixo:hover {
+    background-color: #bc6c25;
+    color: white;
+}
+
+.rodape {
+    background-color: #5c4033;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-top: 3px solid #d4a373;
+}
+
+.rodape h3 {
+    margin: 0;
+    color: #faedcd;
+}
